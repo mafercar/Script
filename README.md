@@ -187,7 +187,7 @@ echo "Ficheros: " $cont2
 
 Mostramos menu, con productos para vender, luego nos pide que introduzcamos la opcion. luego mensaje que indica que introduzca moneda. Si ponemos precio exacto nos da mensaje, "Gracias buen provecho", si ponemos menos, nos diga falta. Si poner mas valor, nos indique el cambio con mensaje.
 
-![](https://github.com/mafercar/DNS-y-Apache-en-linux/blob/master/scriptmenu.png)
+![](https://github.com/mafercar/Script/blob/master/scriptmenu.png)
 
 Realizar un script que pida introducir la ruta de un directorio por teclado (Hay que validar que la variable introducida sea un directorio) nos diga cuantos archivos y cuantos directorios hay dentro de ese directorio.
 
@@ -241,4 +241,4 @@ Script que limpie todas las reglas, y prohíba cualquier conexión.
 `iptables -A FROMWARD -j REJECT`
 ```
 Tendrá 3 parámetros: red(ip), entrada-salida, aceptar-denegar. Dará estos permisos a iptables.
-![](https://github.com/mafercar/DNS-y-Apache-en-linux/blob/master/scriptpermisos.png)
+![](https://github.com/mafercar/Script/blob/master/scriptpermisos.png)
